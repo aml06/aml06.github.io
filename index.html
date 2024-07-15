@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carbon Capture Examination and Proposal</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .block {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    .block img {
+      max-width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .citation-link {
+      font-size: small;
+    }
+    .navbar {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 5px 0;
+      z-index: 1000;
+    }
+    .navbar-brand,
+    .navbar-nav li {
+      color: #fff;
+    }
+    .navbar-nav li {
+      margin-right: 20px;
+    }
+    .navbar-nav li a {
+      color: #fff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand" href="#">A Carbon Capture Prototype Analysis</a>
+      <ul class="navbar-nav">
+<!--         <li class="nav-item"><a class="nav-link" href="#section1">Section 1</a></li>
+        <li class="nav-item"><a class="nav-link" href="#section2">Section 2</a></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class ="row" style = "padding-top:100px;">
+      <div class = "block">
+      </div>
+    </div>
+    <div class="row">
+        <div class="block">
+          <h2>A Brief Examination of a Carbon Capture and Sequestration Possibility</h2>
+          <br>
+          <p>I have been tinkering with a prototype system for carbon capture relying upon electrolysis in seawater to capture carbon as the
+            solid mineral precipate Calcium Carbonate (CaCO3). This is a side reaction and generally regarded as an annoyance for electrolysis, sapping energy and reducing the efficiency of hydrogen evolution. An analysis though indicates this is a financially
+            viable way to mineralize carbon dioxide and attack the problem of climate change not just through avoiding emissions, but cleaning up past emissions.
+          </p>
+          <img src="solar-price-over-time-our-world-in-data.PNG" alt="Placeholder Image" class = "paragraph_image">
+          <p class="citation-link">Source: <a href="https://ourworldindata.org/grapher/solar-pv-prices">Our World in Data</a></p>
+          <p>The cost of solar power has shrunk enormously and likely will continue to plummet. This will result in a surplus of power at noon (peak solar irradiance) and the problem of arbitraging this power from peak production to peak demand. This results in what is
+            known as the <a href="https://en.wikipedia.org/wiki/Duck_curve">"duck curve"</a>. 
+          </p>
+        </div>
+        <div class="block">
+          <h2></h2>
+          <p>The California electrical grid has struggled to absorb the increasing solar input. The amount of renewable power (especially solar) curtailed each year has grown.</p>
+          <img src="california-curtailment-eia.PNG" alt="Placeholder Image">
+          <p class = "citation-link">Source: <a href="https://www.eia.gov/todayinenergy/detail.php?id=60822">US Energy Information Agency</a></p>
+          <p>The price of electricity at certain nodes can vary quite dramatically over the course of a day, going completely negative at certain times of the year, particularly the spring when cooling demands are still low and production is high.</p>
+        </div>
+        <div class="block">
+          <h2></h2>
+          <img src="morro-bay-node-4date-example-2022.PNG" alt="Placeholder Image">
+          <p class = "citation-link">Source: <a href="https://www.caiso.com">CAISO</a></p>
+          <p>An arbitrage opportunity exists which current expansion in grid scale storage is striving to meet but the rate of solar growth is likely to <a href="https://www.energy-storage.news/bloombergnef-already-cheaper-to-install-new-build-battery-storage-than-peaking-plants/">exceed battery capacity</a> for the foreseeable future.</p>
+        </div>
+        <div class="block">
+          <h2></h2>
+          <p>So what should one do with this excess energy? Pursue a method that captures the arbitrage opportunity and mitigates climate change as a result of increasing CO<sub>2</sub> emissions. 
+            In the interest of brevity I will spare a discussion of the state of global warming and its urgency. I suspect this (2024) summer will impress that upon us all but if not this summer, future summers assuredly will.
+          A side reaction of seawater electrolysis is the production of metal carbonates, Calcium Carbonate in particular, which are insoluble in water and stable at ocean pH levels.</p>
+          <p>CO<sub>2</sub>(aq) + H<sub>2</sub>O ⇌ H<sub>2</sub>CO<sub>3</sub></p>
+          <p>H<sub>2</sub>CO<sub>3</sub> ⇌ H<sup>+</sup> + HCO<sub>3</sub><sup>-</sup></p>
+          <p>HCO<sub>3</sub><sup>-</sup> ⇌ H<sup>+</sup> + CO<sub>3</sub><sup>2-</sup></p>
+          <p>CaCO<sub>3</sub> ⇌ Ca<sup>2+</sup> + CO<sub>3</sub><sup>2-</sup></p>
+          <p>(log K<sub>sp</sub> = -8.48 at 25 C⁰)</p>
+          <p>This reaction proceeds forward or reverse dependent on the pH of the solution. In the alkaline environment around the cathode, the metal carbonates will precipitate out as a solid and can either be utilized or returned to the ocean at a point of erosion or collected and dispersed later in deeper water.
+            The carbon in the solid carbonate has been removed from the sea-atmospheric system, removing and storing a carbon dioxide in one operation. 
+          </p>
+          <img src = "cc-diagram.png" alt="Placeholder Image">
+          <p class = "citation-link">Source: Andrew Lyon</p>
+          <p>Electrolysis is performed on seawater during mid-day periods of low electricity prices with the resultant carbon depleted seawater returned to the ocean. The hydrogen from the operation is captured and later used to
+            power a fuel cell during periods of high electrical prices resulting in an arbitrage of electricity. Depending on the design of electrode, chlorine or oxygen is generated at the anode. Chlorine can be captured and sold but scaling of the
+            system will exceed industrial demand for chlorine and so will require chlorine evolution reaction (CER) suppressing anodes eventually. 
+          </p>
+        </div>
+        <div class = "block">
+          <h2></h2>
+          <p>CER suppressing anodes exist but are currently (to my knowledge) not pursued due to low efficiency production in seawater electrolysis (due to competing side reactions). These side reactions are beneficial in this design so relative hydrogen
+            production inefficiency is not an issue.
+          </p>
+          <img src="cer-anode.jpg" alt="Placeholder Image">
+          <p class = "citation-link">Source: Andrew Lyon</p>
+          <p>The above image is a CER suppressing anode after 24-hours. There is an engineering challenge of capillary action interfering with the hydroxide layer at the water line resulting in the anode dissolving at the water-air interface
+            but the bulk of the anode in the water is in good condition after 24-hours. This anode was fabricated based on work by <a href="https://www.pnas.org/doi/10.1073/pnas.1900556116">Kuang et al. 
+            </a>
+            but will
+              require some further work and prototyping. This is essentially the chloro-alkali process as well, conducted at a higher pH so chlorine evolution could be captured and sold which would allow the use of established
+              platinum anodes. This would be more complicated from a prototype construction perspective and would only scale to a few millions tons per year (once you've saturated the chlorine market) so I 
+              prefer to pursue the CER suppressing anode design.
+          </p>
+        </div>
+        <div class = "block">
+          <h2></h2>
+          <p>
+            A conservative estimate of costs to construct a 4,000 ton CO<sub>2</sub> per year sequestration system had an estimate of between $250 and $550 per ton. This is well below current prices.
+          </p>
+          <img src="cost-analysis.png" alt="Placeholder Image">
+          <p class = "citation-link">Source: Andrew Lyon</p>
+          <p>I suspect that sub $50 a ton is very possible when built at scale. At $50 a ton, the 36 billion tons of global yearly emissions would cost $1.8 trillion to fully mineralize.
+            The cost of mineralizing the emissions of a tank of gas would be 50 70 cents. I am fully convinced that industrial scale carbon capture is not just viable, it is inevitable. </p>
+        </div>
+        <div class = "block">
+          <p>So what do I do next? I have been looking for a lab/company in the Los Angeles / Las Vegas areas to fabricate a larger anode and build a prototype system capable of mineralizing an appreciable amount in an hour (100g or so).
+            I still need some experimentation on the prototype to thoroughly block the capillary action from breaking the protective layer. I have been trying to find a lab or company that can assist but so far, not really any interest.
+          </p>
+          <p>If you have any questions or insight feel free to reach out to me at emaillyonam@gmail.com</p>
+          <img src="SEM-Cathode-CaCO3.png" alt="Placeholder Image">
+          <p class = "citation-link">Source: Andrew Lyon</p>
+          <p class = "citation-link">Scanning Electron Microscope Image of a CaCO<sub>3</sub> deposit on a steel cathode.</p>
+        </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS (optional) -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
